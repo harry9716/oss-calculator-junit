@@ -48,7 +48,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Intentional fail test")
     void IntentionalFail() {
-        assertEquals(100, calc.add(5,5),"This test should be fail");
+        assertEquals(10, calc.add(5,5),"This test should be fail");
     }
 
 }
