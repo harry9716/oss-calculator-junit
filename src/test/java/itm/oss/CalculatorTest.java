@@ -45,5 +45,10 @@ class CalculatorTest {
         assertFalse(calc.isPrime(-4), "There are not negative primer numbers.");
         assertFalse(calc.isPrime(-5), "There are not negative primer numbers.");
     }
+    @Test
+    @DisplayName("Intentional fail test")
+    void IntentionalFail() {
+        assertEquals(100, calc.add(5,5),"This test should be fail");
+    }
 
 }
